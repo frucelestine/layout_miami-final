@@ -1,9 +1,8 @@
 .testimony {
-  padding: 0 calc(50% - 574px) calc(50% - 470px);
+  padding: 60px calc(50% - 800px);
   position: relative;
   color: black;
   background-color: #EEE;
-  margin-top: 60px;
 }
 
 .testimony_crown {
@@ -26,7 +25,7 @@
 }
 
 .items_block {
-  width: calc(33.3% - 32.5px);
+  width: calc(33.3% - 87.5px);
   text-align: center;
   position: relative;
   &::before {
@@ -43,15 +42,14 @@
 }
 
 .block_image {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
 }
 
 .block_name {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
   line-height: 24px;
   margin: 0;
 }
@@ -64,6 +62,5 @@
 .block_text {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
   line-height: 24px;
 }

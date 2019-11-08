@@ -5,6 +5,9 @@
 }
 
 @media screen and (max-width: 1234px) {
+  body{
+    // padding: 0 40px;
+  }
   ul.head-contact {
     flex-direction: column;
     align-items: center;
@@ -17,6 +20,9 @@
   .nav-item {
     margin: 0 5px;
     transition: 0.5s;
+  }
+  .info-text{
+    text-align: center;
   }
 
   .heading {
@@ -42,7 +48,8 @@
   }
 
   .gallery {
-    margin-bottom: 40px;
+    margin: 0;
+    padding-bottom: 0;
   }
   .photos {
     flex-direction: column;
@@ -75,28 +82,33 @@
 
   .consult {
     padding-bottom: 60px;
-    margin-top: -43px;
+    margin: 0;
+    padding: 43px 0;
+    text-align: center;
   }
   .items_text,
   .items_form {
     width: 300px;
+    margin-top: 48px;
   }
 
   .testimony_items {
     flex-direction: column;
     align-items: center;
-    margin: 0;
+    margin-top: 40px;
   }
   .testimony {
-    padding-bottom: 60px;
+    padding: 30px 0;
   }
   .items_block {
     width: 240px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .contact_block {
     flex-direction: column;
     align-items: center;
+    margin: 20px 0;
+    text-align: center;
   }
 
   .block_detail,

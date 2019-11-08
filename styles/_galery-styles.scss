@@ -1,5 +1,5 @@
 .gallery {
-  padding: 0 calc(50% - 574px) calc(50% - 600px);
+  padding: 60px calc(50% - 574px);
   position: relative;
   background-color: #eee;
   color: black;
@@ -15,7 +15,7 @@
   }
 
   &_photos {
-    margin: 48px auto;
+    margin: 48px 30px;
     .photos {
       display: flex;
       justify-content: space-between;
@@ -65,6 +65,11 @@ button {
   background: #00aaef;
   padding: 19px 63px;
   cursor: pointer;
+   transition: background-color 0.5s, color 0.5s;
+  &:hover{
+    background-color: rgb(136, 136, 173);
+    color: #00aaef;
+  } 
 }
 
 .gallery_crown {
