@@ -1,0 +1,69 @@
+.contact {
+  padding: 60px calc(50% - 600px);
+  position: relative;
+  color: black;
+  margin: 0 30px;
+}
+
+
+
+.contact_crown {
+  position: absolute;
+  width: 23px;
+  height: 16px;
+  display: block;
+  top: calc(100% + 4px);
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-image: url("../images/crown1.svg");
+  background-repeat: no-repeat;
+}
+
+.contact_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.block_detail {
+  width: calc(50% - 133.7px);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.contact_form {
+  width: calc(50% - 36px);
+  input {
+    font-size: 18px;
+    font-weight: bold;
+    height: 54px;
+    width: 100%;
+    margin-bottom: 8px;
+    background-color: #eee;
+    border-width: 0;
+  }
+  input[type="submit"] {
+    cursor: pointer;
+    background-color: #00aaef;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+     transition: background-color 0.5s, color 0.5s;
+  &:hover{
+    background-color: rgb(136, 136, 173);
+    color: #00aaef;
+  } 
+  }
+}
+.form_textarea {
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  height: 116px;
+  padding: 0;
+  background-color: #eee;
+  border-width: 0;
+}
