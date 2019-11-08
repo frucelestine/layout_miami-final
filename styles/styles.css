@@ -113,7 +113,7 @@ button {
 }
 
 .consult {
-  padding: 60px calc(50% - 800px);
+  padding: 60px calc(50% - 600px);
   position: relative;
   color: black;
   margin: 0 30px;
@@ -214,7 +214,7 @@ input[type="button"]:hover {
 }
 
 .testimony {
-  padding: 60px calc(50% - 800px);
+  padding: 60px calc(50% - 600px);
   position: relative;
   color: black;
   background-color: #EEE;
@@ -287,7 +287,7 @@ input[type="button"]:hover {
 }
 
 .contact {
-  padding: 60px calc(50% - 800px);
+  padding: 60px calc(50% - 600px);
   position: relative;
   color: black;
   margin: 0 30px;
@@ -441,6 +441,9 @@ input[type="button"]:hover {
             align-items: center;
     top: 150px;
     right: 51px;
+  }
+  .items_block::before {
+    display: none;
   }
 }
 
